@@ -1,4 +1,4 @@
-ÅäÖÃÎÄ¼ş
+é…ç½®æ–‡ä»¶
 	JdbcPool.properties	
 		driver=com.mysql.jdbc.Driver
 		url=jdbc:mysql://localhost:3306/mytest
@@ -17,7 +17,7 @@
 		find=select deptno,dname,loc from dept where deptno=#{id}
 		select=select deptno,dname,loc from dept limit #{start},#{limit}
 		
-ÊµÌåÀà
+å®ä½“ç±»
 	public class DeptVO {
 		private Integer deptno;
 		private String dname;
@@ -25,7 +25,7 @@
 		......
 	}
 
-½Ó¿Ú
+æ¥å£
 	public interface DeptDO {
 	
 		int insert(DeptVO item);
